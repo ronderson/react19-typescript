@@ -1,7 +1,14 @@
-import Image from "next/image";
-
-export default function Home() {
+import Menu from "@/components/Menu";
+import Footer from "@/components/Footer";
+const Home = () => {
   return (
-    <div><h1>Bem vindo imobsys</h1></div>
+    <div>
+      <Menu /> <br />
+      <h2>Bem vindo imobsys</h2>
+      <br />
+      <Footer />
+    </div>
   );
 }
+
+export default Home;
